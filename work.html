@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work – Proposal Funding Performance Analysis</title>
+    <link rel="icon" type="image/png" href="images/ofino.svg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/ofino.svg" alt="Logo" class="d-inline-block align-top logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container work-page">
+        <!-- Case Study Title -->
+        <header class="case-study-header">
+            <h1 class="case-study-title">Proposal Funding Performance Analysis</h1>
+            <div class="case-study-meta">
+                <p>Tools: Power BI (DAX), SQL, Data Modeling, KPI Framework Design, Financial Aggregation Logic</p>
+                <p>Results: Built a centralized dashboard that highlighted differences in approval rates across categories and created a reusable framework for tracking funding performance.</p>
+            </div>
+        </header>
+
+        <!-- 1. Business Context -->
+        <section class="case-study-section">
+            <div class="row align-items-start section-row">
+                <div class="col-lg-6 section-text">
+                    <h2>Business Context</h2>
+                    <p class="section-subtitle">Limited visibility into how funding requests converted into approvals.</p>
+                    <p>While supporting improvements to the NEAR Treasury platform’s data visibility, I noticed that funding approvals varied across categories but weren’t easy to evaluate in a structured way.</p>
+                    <p>Proposal data existed, but there wasn’t a simple way to see:</p>
+<ul class="case-study-list">
+    <li>Which categories had strong approval rates</li>
+    <li>Where requested funding wasn’t converting</li>
+    <li>How capital was distributed across programs</li>
+</ul>
+                        
+                        <p>This project was created to organize that information into something clear and measurable.</p>
+                </div>
+                <div class="col-lg-6 section-media">
+                    <img src="images/chart1.png" alt="Chart 1" class="case-study-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Objective -->
+        <section class="case-study-section">
+            <div class="row section-row">
+                <div class="col-12 section-text">
+                    <h2>Objective</h2>
+                    <p class="section-subtitle">Evaluating how effectively requested funding translated into approved capital.</p>
+                    <p>The goal was to evaluate how effectively requested funding converted into approved capital.</p>
+                    <p>Specifically, I wanted to understand:</p>
+<ul class="case-study-list">
+                        <li>Which funding categories demonstrate the strongest approval performance?</li>
+                        <li> Where approval rates are underperforming relative to requested capital?</li>
+                        <li>How total requested funding compares to approved outcomes across segments?</li>
+                    </ul>
+                    <p>The focus was clarity — turning raw proposal data into something easier to interpret.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Analysis Approach -->
+        <section class="case-study-section">
+            <div class="row align-items-start section-row">
+                <div class="col-lg-6 section-text">
+                    <h2>Data & Approach</h2>
+                    <p class="section-subtitle">Structuring proposal data into consistent, comparable performance metrics.</p>
+                    <p><strong>I structured proposal-level data in Power BI and defined a small set of consistent metrics:</strong></p>
+                    <ul class="case-study-list">
+
+                        <li>Total Requested</li>
+                        <li>Total Approved</li>
+                        <li>Approval Rate %</li>
+                        <li>Funding Utilization %</li>
+                    </ul>
+                    <p>This created a simple framework for comparing categories side by side.</p>
+                </div>
+                <div class="col-lg-6 section-media">
+                    <img src="images/chart2.png" alt="Chart 3" class="case-study-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Key Insights -->
+        <section class="case-study-section">
+            <div class="row align-items-start section-row">
+                <div class="col-lg-6 section-text">
+                    <h2>Key Insights</h2>
+                    <p class="section-subtitle">Identifying approval patterns and funding concentration trends.</p>
+                    <p><strong>Key Insights:</strong></p>  
+                    <p>A few patterns became clear:</p>
+                    <ul class="case-study-list">
+                        <li>Approval rates varied significantly by category.</li>
+                        <li>Some categories requested large amounts of funding but had lower approval efficiency.</li>
+                        <li>A small number of categories accounted for most requested capital, creating concentration risk.</li>
+                    </ul>
+                    <p>These patterns suggested a potential misalignment between capital allocation and approval performance.</p>
+                </div>
+                <div class="col-lg-6 section-media">
+                    <img src="images/chart3.png" alt="Key Insights" class="case-study-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Insights -->
+       
+        <section class="case-study-section insights-section">
+            <div class="row section-row">
+                <div class="col-12 section-text">
+                    <h2>Outcome & Impact</h2>
+                    <p class="section-subtitle">Creating clearer insight into funding performance and allocation efficiency.</p>
+                    <p>This dashboard organized proposal data into a clear reporting framework that made funding performance easier to evaluate.
+
+It demonstrates how structured KPI modeling can improve visibility into allocation efficiency and support more informed decision-making.
+
+The framework can be reused to track funding performance over time.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-icons">
+                <p class="footer-text">© 2026 Ofino. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
