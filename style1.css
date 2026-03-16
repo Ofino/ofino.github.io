@@ -164,6 +164,13 @@ h1 {
     color: #FFFFFF !important;
   }
 
+  /* 40px spacing between buttons when stacked on mobile/tablet */
+  @media (max-width: 991px) {
+    .home-hero-buttons {
+      gap: 0px;
+    }
+  }
+
   h2 {
     font-size: 34px !important;
     margin-bottom: 20px !important;
